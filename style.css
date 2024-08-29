@@ -1,0 +1,208 @@
+@font-face {
+    font-family: papyrus;
+    src: url(images/papyrus.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    width: 70%;
+    margin: auto;
+}
+
+
+h1 {
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: red;
+    position: relative;
+    bottom: 0px;
+    top: 0px;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+h2 {
+
+    border: 2px solid black;
+    background-color: red;
+    font-size: 50px;
+
+    text-align: center;
+    font-family: "papyrus";
+    color: white;
+}
+
+
+h3 {
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-family: "papyrus";
+}
+
+pre {
+    border: 1px solid black;
+    padding-top: 10px;
+    margin: auto;
+    padding-right: 35px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+ul {
+    list-style: none;
+    font-family: "papyrus";
+    -webkit-text-stroke-width: 1px;
+    border: 1px solid black;
+}
+
+li {
+    background: red;
+    color: #fff;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 1s;
+
+}
+
+.naviga {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+
+}
+
+ul li a {
+    padding-left: 0;
+}
+
+li a {
+    color: #fff;
+}
+
+li:hover {
+    background: rgb(232, 156, 30);
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+ul li ul {
+    background: red;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 1s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+
+ul li:hover>ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+
+fieldset {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: "papyrus";
+    -webkit-text-stroke-width: 1px;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    background-color: red;
+}
+
+thead {
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+
+table {
+    font-family: "papyrus";
+    background-color: red;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.papi {
+    font-family: "papyrus";
+}
+
+a {
+    font-family: "papyrus";
+}
+
+.b {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+span {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+.tengah {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.gerak {
+    position: fixed;
+}
+
+.bawah {
+    margin-bottom: 20px;
+}
+
+.stiki {
+    position: sticky;
+    top: 0;
+}
+
+.biru {
+    background: red;
+    color: white
+}
+
+a {
+    text-decoration: none;
+}
